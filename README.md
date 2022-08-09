@@ -1,6 +1,10 @@
 # test app omni doc
 
-test de prueba integrando la API de spotify
+test de prueba integrando la API de spotify!!!
+
+- Si necesita probar la app agame llegar un correo a
+
+      isaacchay3@gmail.com
 
 ## Objetivos cumplidos
 
