@@ -24,6 +24,7 @@ test de prueba integrando la app de spotify
 
 ### Paso #2
 con flutter instalado ejecutar el siguiente comando
+
     - flutter pub get
 
 ## Descarge la app
