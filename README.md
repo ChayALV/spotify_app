@@ -29,3 +29,13 @@ test de prueba integrando la app de spotify
 ## Descarge la app
 
 ## Screenshots
+![img1](https://raw.githubusercontent.com/ChayALV/spotify_app/master/assets/images/screenshots/1.jpg)
+![img1](https://raw.githubusercontent.com/ChayALV/spotify_app/master/assets/images/screenshots/2.jpg)
+![img1](https://raw.githubusercontent.com/ChayALV/spotify_app/master/assets/images/screenshots/3.jpg)
+![img1](https://raw.githubusercontent.com/ChayALV/spotify_app/master/assets/images/screenshots/4.jpg)
+![img1](https://raw.githubusercontent.com/ChayALV/spotify_app/master/assets/images/screenshots/5.jpg)
+![img1](https://raw.githubusercontent.com/ChayALV/spotify_app/master/assets/images/screenshots/6.jpg)
+![img1](https://raw.githubusercontent.com/ChayALV/spotify_app/master/assets/images/screenshots/7.jpg)
+![img1](https://raw.githubusercontent.com/ChayALV/spotify_app/master/assets/images/screenshots/8.jpg)
+![img1](https://raw.githubusercontent.com/ChayALV/spotify_app/master/assets/images/screenshots/9.jpg)
+![img1](https://raw.githubusercontent.com/ChayALV/spotify_app/master/assets/images/screenshots/10.jpg)
