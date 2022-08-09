@@ -47,10 +47,23 @@ class HomePage extends GetView<HomeController> {
                             ? NowPlayedWid(controller: controller)
                             : Container()),
                     FadeInRight(
-                        child: RecentlyPlayedWid(controller: controller)),
+                        child: controller.recentlyPlayed != null 
+                          ? RecentlyPlayedWid(controller: controller)
+                          : const Center(child: Text(
+                              'Start your music',
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                letterSpacing: 20,
+                                fontSize: 45,
+                                color: Colors.white,
+                                fontFamily: 'Montserrat',
+                                // fontWeight: FontWeight.w900
+                              ),
+                            ),)
+                      ),
                     FadeInUp(
                         child: ControllerButtoms(controller: controller)),
-                    controller.nowPlayed != null
+                    controller.nowPlayed != null && controller.divices != null  
                         ? PlayingIn(controller: controller)
                         : Container()
                   ],

@@ -74,6 +74,7 @@ class LoginController extends GetxController with StateMixin {
       'Authorization':
           formatHeaderOfAuthorization(global.id_client, global.client_secret)
     });
+    print(response.body);
     await saveInformationOfTOken(response.body);
     change(null, status: RxStatus.success());
     Get.toNamed(Routes.MENU);
@@ -93,7 +94,6 @@ class LoginController extends GetxController with StateMixin {
     localStorage.setString('tokenType', tokenType);
     localStorage.setString('tokenRefres', tokenRefresh);
     localStorage.setString('tokenScope', tokenScope);
-
   }
 
   String formatHeaderOfAuthorization(String idClient, String secretClient) {

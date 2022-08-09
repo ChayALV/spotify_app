@@ -4,6 +4,7 @@ import 'package:test_app_omni_doc/app/data/models/search_model.dart';
 
 class Search {
   Future<SearchModel> getResults(String search) async {
+    print(search);
     final localStorage = await SharedPreferences.getInstance();
 
     String? token = localStorage.getString('token');
@@ -18,7 +19,6 @@ class Search {
 
     var response = await http
         .get(urlToSearch, headers: {'Authorization': authorizationWithToken});
-
     SearchModel results = SearchModel.fromJson(response.body);
     return results;
   }

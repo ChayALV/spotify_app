@@ -24,15 +24,20 @@ class HomeController extends GetxController with StateMixin {
   var isPlayed = false.obs;
 
   getRecentlyPlayed() async {
-    recentlyPlayed = await RecentlyPlayed().getRecentlyPlayed();
-    change(null, status: RxStatus.success());
+    try {
+      recentlyPlayed = await RecentlyPlayed().getRecentlyPlayed();
+      change(null, status: RxStatus.success());
+    } catch (e) {
+      recentlyPlayed = null;
+      change(null, status: RxStatus.success());
+    }
   }
 
   getNowPlayed() async {
     change(null, status: RxStatus.loading());
     if (await NowPLayed().getNowPlayed() == false) {
       nowPlayed = null;
-    }else{
+    } else {
       nowPlayed = await NowPLayed().getNowPlayed();
       isPlayed.value = nowPlayed!.isPlaying;
     }
@@ -40,7 +45,11 @@ class HomeController extends GetxController with StateMixin {
   }
 
   getDivices() async {
-    divices = await Divices().getDivices();
+    try {
+      divices = await Divices().getDivices();
+    } catch (e) {
+      divices = null;
+    }
   }
 
   nextTrack() async {

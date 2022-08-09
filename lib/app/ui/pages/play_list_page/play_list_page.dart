@@ -62,7 +62,20 @@ class PlayListPage extends GetView<PlayListController> {
                   ),
               onLoading: Center(
                 child: Loading(),
-              )),
+                ),
+              onError: (error) => const Center(child: Text(
+                  'PlayList?',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    letterSpacing: 20,
+                    fontSize: 45,
+                    color: Colors.white,
+                    fontFamily: 'Montserrat',
+                    // fontWeight: FontWeight.w900
+                  ),
+                ),),
+              ),
+              
         );
       },
     ));

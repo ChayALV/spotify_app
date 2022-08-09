@@ -10,7 +10,11 @@ class PlayListController extends GetxController with StateMixin {
   PlayListModel? playLists;
 
   getPlayLists() async {
-    playLists = await PlayList().getPlayList();
-    change(null, status: RxStatus.success());
+    try {
+      playLists = await PlayList().getPlayList();
+      change(null, status: RxStatus.success());
+    } catch (e) {
+      change(null, status: RxStatus.error());
+    }
   }
 }
