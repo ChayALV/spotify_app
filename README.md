@@ -29,7 +29,7 @@ con flutter instalado ejecutar el siguiente comando
 
 ## Descarge la app
 
-![img1](https://raw.githubusercontent.com/ChayALV/spotify_app/master/assets/images/qr-code.png)
+![img1](https://raw.githubusercontent.com/ChayALV/spotify_app/master/assets/images/qr.png)
 
 ## Screenshots
 ![img1](https://raw.githubusercontent.com/ChayALV/spotify_app/master/assets/images/screenshots/1.jpg)
