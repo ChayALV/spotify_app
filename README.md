@@ -32,7 +32,7 @@ con flutter instalado ejecutar el siguiente comando
 ## Screenshots
 ![img1](https://raw.githubusercontent.com/ChayALV/spotify_app/master/assets/images/screenshots/1.jpg)
 
-## Para ver los detalles de la pista mantenga precionado
+## Para ver los detalles de la pista mantenga precionado en la caratula de la pista
 
 ![img1](https://raw.githubusercontent.com/ChayALV/spotify_app/master/assets/images/screenshots/2.jpg)
 ![img1](https://raw.githubusercontent.com/ChayALV/spotify_app/master/assets/images/screenshots/3.jpg)
