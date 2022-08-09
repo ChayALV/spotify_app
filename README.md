@@ -1,6 +1,6 @@
 # test app omni doc
 
-test de prueba integrando la app de spotify
+test de prueba integrando la API de spotify
 
 ## Objetivos cumplidos
 
